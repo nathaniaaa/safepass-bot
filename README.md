@@ -12,11 +12,9 @@ Bot dapat dijalankan di komputer lokal sendiri dengan mengikuti step di bawah in
 Berikut adalah contoh bagaimana bot ini bekerja saat dijalankan secara lokal:
 
 **Perintah /start**
-![Contoh Perintah Start]
 ![Screenshot_2025-10-19-18-18-45-968_org telegram messenger](https://github.com/user-attachments/assets/9a83dd22-ca52-4016-803d-778a3f73d642)
 
 **Mengecek Password**
-![Contoh Output Password]
 ![Screenshot_2025-10-19-18-22-52-712_org telegram messenger](https://github.com/user-attachments/assets/973b173e-0d3b-4718-bb6e-3a5c3ea8decf)
 
 ## Perintah yang Tersedia
