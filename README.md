@@ -34,7 +34,7 @@ Berikut adalah contoh bagaimana bot ini bekerja saat dijalankan secara lokal:
 
 1.  **Clone repositori:**
     ```bash
-    git clone https://github.com/nathaniaaa/safepass-bot.githttps://github.com/nathaniaaa/safepass-bot.git
+    git clone https://github.com/nathaniaaa/safepass-bot
     ```
 
 2.  **Install semua *library* yang dibutuhkan:**
