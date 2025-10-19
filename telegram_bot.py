@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from model import predict_strength
-from recommender import ai_recommendation
+from recommender import get_recommendation
 import logging
 
 # setup logging biar keliatan error di terminal
@@ -38,12 +38,12 @@ async def check(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         password = context.args[0]
         strength = predict_strength(password)
-        recommendation = ai_recommendation(strength)
+        recommendation = get_recommendation(password, strength)
 
         message = (
             f"🔐 *Password:* `{password}`\n"
             f"💪 *Kekuatan:* {strength}\n\n"
-            f"🤖 *Rekomendasi AI:*\n{recommendation}"
+            f"🤖 *Rekomendasi:*\n{recommendation}"
         )
 
         await update.message.reply_text(message, parse_mode="Markdown")
